@@ -1,0 +1,73 @@
+{
+  "name": "elementmapper",
+  "fullName": "Element Mapper Tool",
+  "id": "ElementMapper@jona",
+  "description": "Maps element to a object",
+  "author": "Jona Frank , special thanks to Robert Byrne",
+  "license": "GNU GPL v3",
+  "version": "1.0",
+  "preferences": [{
+    	"name": "fileName",
+    	"title": "File name?",
+        "type": "string",
+        "value": "Element_Mapper"
+    },
+    {
+    	"name": "pathToFile",
+    	"title": "Path to file?",
+        "type": "directory",
+        "value": ""
+    },
+    {
+    	"name": "datestamp",
+    	"title": "Date stamp?",
+        "type": "bool",
+        "value": false
+    },
+    {
+    	"name": "timestamp",
+    	"title": "Time stamp?",
+        "type": "bool",
+        "value": false
+    },
+    {
+    	"name": "datestampInLine",
+    	"title": "Date stamp in line?",
+        "type": "bool",
+        "value": false
+    },
+    {
+    	"name": "timestampInLine",
+    	"title": "Time stamp in line?",
+        "type": "bool",
+        "value": false
+    },
+    {
+    	"name": "lineSeparator",
+    	"title": "Line separator?",
+        "type": "bool",
+        "value": false
+    },
+    {
+    	"name": "currentURL",
+    	"title": "Current URL?",
+        "type": "bool",
+        "value": false
+    },
+    {
+    	"name": "saveMode",
+    	"title": "Save mode?",
+        "type": "menulist",
+        "value": 0,
+        "options": [
+	        {
+	            "value": "0",
+	            "label": "Create"
+	        },
+	        {
+	            "value": "1",
+	            "label": "Append"
+	        }
+	    ]
+    }]
+}

@@ -1,0 +1,27 @@
+{
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "off.png"
+  },
+  "description": "Zoho Mail Extension",
+  "icons": {
+	"128": "mail.png"
+  },
+  "name": "Zoho Mail Extension",
+  "permissions": [
+    "alarms",
+    "tabs",
+    "webNavigation",
+	"<all_urls>",
+	"notifications"
+   ],
+  "web_accessible_resources": [
+    "mail.png"
+  ],
+  "options_page": "options.html",
+  "version": "1.0",
+  "manifest_version": 2
+}
